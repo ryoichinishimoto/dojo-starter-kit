@@ -5,8 +5,11 @@
     "vscode": {
       "extensions": [
         "bradlc.vscode-tailwindcss",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "GitHub.copilot-chat",
+        "vscode-icons-team.vscode-icons"
       ]
     }
-  }
+  },
+  "postCreateCommand": "npm install"
 }
